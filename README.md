@@ -53,3 +53,52 @@ This project **executes real system commands**.
 - Python **3.10+**
 - `sudo` access
 - OpenAI API key
+
+---
+
+## 📦 Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ai-automation-assistant.git
+cd ai-automation-assistant
+
+2️⃣ Create or download the virtual environment from the git (recommended)
+python3 -m venv ai_agent_venv
+source ai_agent_venv/bin/activate
+
+3️⃣ Install dependencies
+pip install openai
+
+🔑 Configure API Key
+
+Open ai_agent.py and paste your OpenAI API key:
+
+client = OpenAI(
+    api_key="sk-proj-PASTE_YOUR_KEY_HERE"
+)
+
+▶️ Usage
+
+Run the agent:
+
+python ai_agent.py
+
+
+Example prompt:
+
+Update system packages and install PHP 8.1
+
+
+You will see:
+
+AI-generated commands
+
+Confirmation prompt
+
+Live terminal output
+
+Log file written on completion
+
+##Note: If you downloaded the venv from the git, you don't need to do all these steps, just activate the venv and run the "ai_agent.py" file! :D
