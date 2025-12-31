@@ -61,7 +61,7 @@ This project **executes real system commands**.
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/ai-automation-assistant.git
+git clone https://github.com/XAndrr23/ai-automation-assistant.git
 cd ai-automation-assistant
 
 2️⃣ Create or download the virtual environment from the git (recommended)
