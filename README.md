@@ -1,6 +1,8 @@
 # ai-automation-assistant
 AI Automation Assistant for Ubuntu 24.04 LTS
 
+This code is free and open-source so you can modify it however you like!
+
 # AI Local Command Agent
 
 A local Linux automation agent that uses OpenAI to generate shell commands, asks for confirmation, and executes them **safely** with real-time output.
